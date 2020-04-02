@@ -5,11 +5,7 @@ import java.util.concurrent.BlockingQueue;
 import java.util.concurrent.LinkedBlockingQueue;
 import java.util.concurrent.ConcurrentHashMap;
 
-/**
- * The {@link MessageBusImpl class is the implementation of the MessageBus interface.
- * Write your implementation here!
- * Only private fields and methods can be added to this class.
- */
+
 public class MessageBusImpl implements MessageBus {
 
 	private static class MessageBusImlHolder {
